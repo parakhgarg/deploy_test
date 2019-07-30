@@ -36,7 +36,7 @@ set :keep_releases, 2
 # set :linked_files, %w{config/database.yml}
 # set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 set :linked_dirs,  %w{log}
-set :rvm_ruby_version, 'ruby-2.6.0@optimized_listing_gemset'
+set :rvm_ruby_version, 'ruby-2.6.3'
 
 namespace :puma do
   desc 'Create Directories for Puma Pids and Socket'
