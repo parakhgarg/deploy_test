@@ -1,7 +1,7 @@
-server 'ec2-3-14-82-46.us-east-2.compute.amazonaws.com', port: 22, roles: [:web, :app, :db], primary: true
+server 'ec2-52-66-206-234.ap-south-1.compute.amazonaws.com', port: 22, roles: [:web, :app, :db], primary: true
 
 set :stage,           :production
-set :branch,        :simple_aws_deployment
+set :branch,        :master
 
 # Simple Role Syntax
 # ==================
